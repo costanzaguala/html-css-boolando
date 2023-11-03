@@ -11,3 +11,46 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.a {
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+    background-color: #FF6800;
+    padding: 15px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .link-container ul li {
+    display: inline-block;
+}
+
+.link-container a {
+    color: white;
+    text-decoration: none;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+.link-container.login ul i {
+    color: white;
+    padding: 3px;
+}
+
+/* FOOTER */
+
